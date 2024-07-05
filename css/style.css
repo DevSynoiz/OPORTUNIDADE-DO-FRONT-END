@@ -1,0 +1,107 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -5px 0px inset;
+  border-radius: 10px;
+}
+.front,
+.abner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.front img,
+.abner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+body {
+  background-color: #3333330e;
+  padding: 0px 10px 0px 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-size: 39px;
+}
+h1 {
+  text-align: center;
+}
+.menu {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  cursor: default;
+}
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+.menu a:hover {
+  background-color: #0f5c80;
+}
+
+.aprender,
+.futuro,
+.chance,
+.escolher,
+p {
+  font-size: 27px;
+  line-height: 38px;
+}
+.lucas5 {
+  max-width: 100%;
+  height: auto;
+}
+.lucas5 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.lucas1 {
+  margin: 0px;
+  padding: 0px;
+  border: 5px;
+  font-size: 39px;
+}
+.redes,
+.github {
+  text-align: center;
+  font-size: 50px;
+}
+.fa-brands:hover {
+  transform: scale(1.1);
+}
+.fa-brands {
+  transition: 0.3s;
+}
+.fa-brands:hover {
+  color: blue;
+}
+.fa-square-instagram:hover {
+  color: #d11515;
+}
+.fa-square-github:hover {
+  color: chocolate;
+}
+a {
+  color: initial;
+}
